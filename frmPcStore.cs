@@ -25,7 +25,7 @@ namespace Store
 {
     public partial class frmPcStore : Form // טופס ראשי של המערכת
     {
-
+        // Check
         private OleDbConnection connection = new OleDbConnection(); // משתנה להתחברות לבסיס נתונים 
         private static string PathDB = Application.StartupPath + @"\PcStore.ACCDB"; // משתנה שמכיל את המיקום של קובץ הבסיס נתונים שלנו
         private DBSQL dataB = new DBSQL(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + PathDB + ";Persist Security Info=False;"); // משתנה שמקושר לכל הפעולות שניתן לעשות בבסיס הנתונים 
